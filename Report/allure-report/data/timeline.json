@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5B2R9UF",
+    "children" : [ {
+      "name" : "19680-MainThread",
+      "children" : [ {
+        "name" : "Book flight in this page",
+        "uid" : "504909ab5ee8fa55",
+        "parentUid" : "11c42584c2a7bf81ea22f27a5e7d2018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204345186,
+          "stop" : 1584204362120,
+          "duration" : 16934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Overview of Homepage",
+        "uid" : "9c120933ab46eb69",
+        "parentUid" : "11c42584c2a7bf81ea22f27a5e7d2018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204333495,
+          "stop" : 1584204345171,
+          "duration" : 11676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "New user register in this page",
+        "uid" : "45ea224cb3848881",
+        "parentUid" : "11c42584c2a7bf81ea22f27a5e7d2018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204255769,
+          "stop" : 1584204333478,
+          "duration" : 77709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11c42584c2a7bf81ea22f27a5e7d2018"
+    } ],
+    "uid" : "f78ab90fd262336d1a89d8d3024393a9"
+  } ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "Test_TourMercury",
+      "children" : [ {
+        "name" : "New user register in this page",
+        "uid" : "45ea224cb3848881",
+        "parentUid" : "da72785ae8d876f1e8db91097f74882b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204255769,
+          "stop" : 1584204333478,
+          "duration" : 77709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Overview of Homepage",
+        "uid" : "9c120933ab46eb69",
+        "parentUid" : "da72785ae8d876f1e8db91097f74882b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204333495,
+          "stop" : 1584204345171,
+          "duration" : 11676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Book flight in this page",
+        "uid" : "504909ab5ee8fa55",
+        "parentUid" : "da72785ae8d876f1e8db91097f74882b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584204345186,
+          "stop" : 1584204362120,
+          "duration" : 16934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da72785ae8d876f1e8db91097f74882b"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  } ]
+}
