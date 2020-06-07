@@ -51,23 +51,23 @@ def test_homePage(browser):
     assert verify== True, "Login not Successfully"
     time.sleep(2)
     hmpage.FlightsClick()
-#
-# @allure.title('Book flight in this page')
-# def test_flightspage(browser):
-#     global flight
-#     flight = FlightPage(browser)
-#     flight.FlightRadio()
-#     time.sleep(2)
-#     flight.flightDrpDown()
-#     flight.flightDeparture()
-#     flight.FlightOn()
-#     flight.FlightOnday()
-#     flight.flightArriving()
-#     flight.flightFrom()
-#     flight.flightfrmDay()
-#     flight.ServiceClass()
-#     time.sleep(3)
-#     flight.continueClick()
-#     flight.backToHome()
+
+@allure.title('Book flight in this page')
+def test_flightspage(browser):
+    global flight
+    flight = FlightPage(browser)
+    flight.FlightRadio()
+    time.sleep(2)
+    flight.flightDrpDown()
+    flight.flightDeparture()
+    flight.FlightOn()
+    flight.FlightOnday()
+    flight.flightArriving()
+    flight.flightFrom()
+    flight.flightfrmDay()
+    flight.ServiceClass()
+    time.sleep(3)
+    flight.continueClick()
+    flight.backToHome()
 #
 
