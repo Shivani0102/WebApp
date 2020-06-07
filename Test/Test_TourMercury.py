@@ -8,7 +8,7 @@ from selenium import webdriver
 
 
 @allure.title('New user register in this page')
-def test_Cases(browser):
+def test_cases(browser):
     global hmpage
     register= RegisterPage(browser)
     hmpage= HomePage(browser)
@@ -27,30 +27,30 @@ def test_Cases(browser):
     register.enterPassword(Pass)
     time.sleep(2)
     register.clickSubmit()
-#     assert register.matchName()=="Dear "+ firstname+" " +lastname +"," , "line is not matching"
-#     assert register.usernameMatch() == "Note: Your user name is "+ user+"." , "username is not matching"
-#     register.Signin()
-#     register.LoginUser()
-#     register.LoginPassWord()
-#     register.LoginSubmitbtn()
-#
-# @allure.title('Overview of Homepage')
-# def test_homePage(browser):
-#     register = RegisterPage(browser)
-#     hmpage.homeClick()
-#     time.sleep(2)
-#     # hmpage.supportClick()
-#     # hmpage.supportBackClick()
-#     # time.sleep(2)
-#     # hmpage.contactClick()
-#     # hmpage.supportBackClick()
-#     register.LoginUser()
-#     register.LoginPassWord()
-#     register.LoginSubmitbtn()
-#     verify= hmpage.loginSuccess()
-#     assert verify== True, "Login not Successfully"
-#     time.sleep(2)
-#     hmpage.FlightsClick()
+    assert register.matchName()=="Dear "+ firstname+" " +lastname +"," , "line is not matching"
+    assert register.usernameMatch() == "Note: Your user name is "+ user+"." , "username is not matching"
+    register.Signin()
+    register.LoginUser()
+    register.LoginPassWord()
+    register.LoginSubmitbtn()
+
+@allure.title('Overview of Homepage')
+def test_homePage(browser):
+    register = RegisterPage(browser)
+    hmpage.homeClick()
+    time.sleep(2)
+    # hmpage.supportClick()
+    # hmpage.supportBackClick()
+    # time.sleep(2)
+    # hmpage.contactClick()
+    # hmpage.supportBackClick()
+    register.LoginUser()
+    register.LoginPassWord()
+    register.LoginSubmitbtn()
+    verify= hmpage.loginSuccess()
+    assert verify== True, "Login not Successfully"
+    time.sleep(2)
+    hmpage.FlightsClick()
 #
 # @allure.title('Book flight in this page')
 # def test_flightspage(browser):

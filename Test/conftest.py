@@ -11,7 +11,7 @@ import os
 from selenium.webdriver import Chrome
 
 CONFIG_PATH = 'resources\config.json'
-Browser_path = "resources\chromedriver.exe"
+Browser_path = 'resources/chromedriver.exe'
 DEFAULT_WAIT_TIME = 10
 SUPPORTED_BROWSERS = ['chrome']
 
@@ -66,7 +66,6 @@ def pytest_runtest_makereport(item, call):
 def browser(config_browser, config_wait_time, request):
     # Initialize WebDriver
     if config_browser == 'chrome':
-        # driver = Chrome()
         driver = Chrome(Browser_path)
     else:
         raise Exception(f'"{config_browser}" is not a supported browser')
