@@ -45,6 +45,7 @@ def test_homePage(browser):
     hmpage.contactClick()
     hmpage.supportBackClick()
     register.LoginUser()
+    time.sleep(5)
     register.LoginPassWord()
     register.LoginSubmitbtn()
     verify= hmpage.loginSuccess()
