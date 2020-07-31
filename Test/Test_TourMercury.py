@@ -30,6 +30,7 @@ def test_cases(browser):
     assert register.matchName()=="Dear "+ firstname+" " +lastname +"," , "line is not matching"
     assert register.usernameMatch() == "Note: Your user name is "+ user+"." , "username is not matching"
     register.Signin()
+    time.sleep(3)
     register.LoginUser()
     register.LoginPassWord()
     register.LoginSubmitbtn()
